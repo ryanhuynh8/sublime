@@ -1,0 +1,15 @@
+[
+	{ "keys": ["v", "v"], "command": "exit_insert_mode",
+	  "context":
+	  [
+	      { "key": "setting.command_mode", "operand": false },
+	      { "key": "setting.is_widget", "operand": false },
+	  ]
+	},
+	{ "keys": ["alt+l"], "command": "unfold" },
+	{ "keys": ["ctrl+t"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["ctrl+tab"], "command": "focus_neighboring_group" },
+	{ "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	{ "keys": ["ctrl+w"], "command": "select_quoted"},
+	{ "keys": ["alt+w"], "command": "close" }
+]
